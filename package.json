@@ -1,0 +1,32 @@
+{
+  "name": "rx-pg",
+  "version": "1.0.0",
+  "description": "Sample project for a node api using Express, Typescript, Rxjs and Postgres",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch & nodemon dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "flyway migrate"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "rxjs",
+    "postgres"
+  ],
+  "author": "Dan",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^6.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^10.11.3",
+    "express": "latest",
+    "nodemon": "^1.18.4",
+    "pg": "^7.4.3",
+    "pg-cursor": "^1.3.0",
+    "rxjs": "^6.3.3",
+    "rxjs-compat": "^6.3.3"
+  }
+}
