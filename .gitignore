@@ -1,4 +1,5 @@
-pgdata
-node_modules
-dist
 .env
+.idea
+dist
+node_modules
+.vscode
